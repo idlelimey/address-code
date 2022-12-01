@@ -1,3 +1,9 @@
+:root {
+  --primary       : #55623f;  /* #084C61 */
+  --primary-light : #9faa7b; /* #db504a */
+  --temp          : var(--primary-light);
+}
+
 /*--------------------------------
 
 Grayic Web Font

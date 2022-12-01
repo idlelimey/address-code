@@ -21795,7 +21795,7 @@ p {
 }
 
 .bg-indigo {
-  background-color: #5454D4;
+  background-color: var(--temp);
 }
 
 .border-whisper-top {
@@ -21803,7 +21803,7 @@ p {
 }
 
 .text--primary {
-  color: #5454d4;
+  color: var(--temp);
 }
 
 /************************************* 
@@ -21951,8 +21951,8 @@ p {
   min-width: 200px;
   height: 60px;
   border-radius: 5px;
-  border: 1px solid #55623f;
-  background: #55623f;
+  border: 1px solid var(--primary);
+  background: var(--primary);
   color: #fff;
   font-size: 21px;
   font-weight: 500;
@@ -22081,7 +22081,7 @@ p {
 }
 
 .footer-1 .copyright-area .social-icons li a:hover {
-  color: #5454d4;
+  color: var(--temp);
 }
 
 /* Footer Style 2 */
@@ -22115,12 +22115,12 @@ p {
 
 @media (min-width: 768px) {
   .footer-2 .footer-list a:hover {
-    color: #5454d4;
+    color: var(--temp);
   }
 }
 
 .footer-2 .footer-list.contact-list a {
-  color: #5454D4;
+  color: var(--temp);
 }
 
 .footer-2 .social-icons {
@@ -22147,7 +22147,7 @@ p {
 
 @media (min-width: 768px) {
   .footer-2 .social-icons li a:hover {
-    background: #55623f;
+    background: var(--primary);
   }
 }
 
@@ -22187,7 +22187,7 @@ p {
 
 @media (min-width: 768px) {
   .footer-3 .footer-list a:hover {
-    color: #5454d4 !important;
+    color: var(--temp) !important;
   }
 }
 
@@ -22232,7 +22232,7 @@ p {
 
 @media (min-width: 768px) {
   .footer-4 .footer-list a:hover {
-    color: #5454d4;
+    color: var(--temp);
   }
 }
 
@@ -22270,7 +22270,7 @@ p {
 
 @media (min-width: 768px) {
   .footer-list a:hover {
-    color: #5454d4;
+    color: var(--temp);
   }
 }
 
@@ -22649,7 +22649,7 @@ p {
 }
 
 .landing-4 .sticky-header.reveal-header {
-  background: #5454d4;
+  background: var(--temp);
 }
 
 .landing-6 .sticky-header.reveal-header {
@@ -22699,7 +22699,7 @@ p {
 }
 
 .header-4.sticky-header.reveal-header {
-  background: #5454d4;
+  background: var(--temp);
 }
 
 .header-4 .btn-close-off-canvas.white-toggler {
@@ -22825,7 +22825,7 @@ p {
     font-weight: 300;
   }
   .header-6 .main-menu > li > .nav-link:hover {
-    color: #5454d4 !important;
+    color: var(--temp) !important;
   }
 }
 
@@ -22999,7 +22999,7 @@ p {
     border: 1px solid #eae9f2;
     background-color: #ffffff;
     display: block;
-    border-top: 3px solid #5454d4;
+    border-top: 3px solid var(--temp);
   }
 }
 
@@ -23015,7 +23015,7 @@ p {
 }
 
 .menu-dropdown > .drop-menu-item:hover > a {
-  color: #5454d4;
+  color: var(--temp);
 }
 
 .menu-dropdown > .drop-menu-item.dropdown {
@@ -23269,7 +23269,7 @@ p {
   top: 50%;
   transform: translateY(-50%);
   right: 15px;
-  color: #5454d4;
+  color: var(--temp);
   font-family: "CircularStd", sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -23289,7 +23289,7 @@ p {
   content: "\f14a";
   font-family: "Font Awesome 5 free";
   font-weight: 900;
-  color: #5454d4;
+  color: var(--temp);
 }
 
 .omega-form .form-check-label label .checkbox {
@@ -23310,7 +23310,7 @@ p {
 }
 
 .omega-form .form-check-label label .checkbox.color-blue:before {
-  color: #55623f;
+  color: var(--primary);
 }
 
 .omega-form .form-check-label label p {
@@ -23323,7 +23323,7 @@ p {
 }
 
 .omega-form .form-check-label label p a {
-  color: #5454d4;
+  color: var(--temp);
 }
 
 .omega-form .button-block {
@@ -23333,7 +23333,7 @@ p {
 .omega-form .button-block .form-btn {
   height: 60px;
   border-radius: 10px;
-  background-color: #55623f;
+  background-color: var(--primary);
   width: 100%;
   color: #ffffff;
   font-family: "CircularStd", sans-serif;
@@ -23353,7 +23353,7 @@ p {
 }
 
 .omega-form .button-block .sign-up-text a {
-  color: #5454d4;
+  color: var(--temp);
   margin-left: 4px;
 }
 
@@ -23768,7 +23768,7 @@ p {
 
 .job-details-content .job-top-header .badge.purple {
   background-color: rgba(84, 84, 212, 0.15);
-  color: #5454d4;
+  color: var(--temp);
 }
 
 .job-details-content .contant-block-1 .main-title {
@@ -23792,7 +23792,7 @@ p {
   height: 60px;
   border-radius: 10px;
   border: 1px solid #C31A12;
-  background-color: #55623f;
+  background-color: var(--primary);
   overflow: hidden;
 }
 
@@ -23886,7 +23886,7 @@ p {
 
 .card-job .badge.blue {
   background-color: rgba(84, 84, 212, 0.15);
-  color: #5454d4;
+  color: var(--temp);
 }
 
 .card-job:hover {
@@ -24021,7 +24021,7 @@ p {
 }
 
 .circle-bg-blue {
-  background: #5454d4;
+  background: var(--temp);
 }
 
 .circle-bg-blue.outer-circle {
@@ -24324,7 +24324,7 @@ p {
 }
 
 .pricing-btns a.active {
-  background-color: #5454d4;
+  background-color: var(--temp);
   color: #fff;
 }
 
@@ -24386,7 +24386,7 @@ p {
 
 .feature-widget .widget-icon.bg-blue {
   background-color: rgba(84, 84, 212, 0.1);
-  color: #5454d4;
+  color: var(--temp);
 }
 
 .feature-widget .widget-icon.bg-yellow {
@@ -24569,7 +24569,7 @@ p {
   border-radius: 5px;
   border: 1px solid #eae9f2;
   background-color: #ffffff;
-  color: #5454d4;
+  color: var(--temp);
   font-size: 18px;
   font-weight: 500;
   letter-spacing: -0.56px;
@@ -24865,8 +24865,8 @@ p {
 }
 
 .omega-blog-pagination .pagination-list li:hover {
-  border: 1px solid #5454d4;
-  background-color: #5454d4;
+  border: 1px solid var(--temp);
+  background-color: var(--temp);
   color: #fff;
 }
 
@@ -25218,7 +25218,7 @@ p {
 .omga-thank-page-main .contents .content-icon {
   width: 118px;
   height: 118px;
-  background-color: #5454d4;
+  background-color: var(--temp);
   border-radius: 500px;
   display: inline-flex;
   align-items: center;
@@ -25434,11 +25434,11 @@ p {
 
 .nav.faq-tab .nav-link:hover {
   border-color: transparent;
-  color: #5454d4;
+  color: var(--temp);
 }
 
 .nav.faq-tab .nav-link.active {
-  color: #5454d4;
+  color: var(--temp);
   background-color: transparent;
   border-color: transparent;
 }
@@ -25484,7 +25484,7 @@ p {
   min-height: 30px;
   max-height: 30px;
   font-size: 15px;
-  background-color: #5454d4;
+  background-color: var(--temp);
   color: #fff;
   display: inline-flex;
   align-items: center;
@@ -25723,7 +25723,7 @@ p {
   max-width: unset;
   flex: unset;
   border-radius: 8px;
-  background-color: #5454d4;
+  background-color: var(--temp);
   margin: 0 2.5px;
   text-align: center;
   margin-top: 10px;
@@ -25885,7 +25885,7 @@ p {
 
 @media (min-width: 992px) {
   .coming-soon-2 .site-footer .social-icons li a:hover {
-    color: #5454d4;
+    color: var(--temp);
     transform: translateY(-3px);
   }
 }
@@ -26336,7 +26336,7 @@ p {
 }
 
 .omga-02__hero-content .video-link {
-  color: #9faa7b;
+  color: var(--primary-light);
   font-family: "CircularStd", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -26700,7 +26700,7 @@ p {
 
 .omga-03__hero-form .nice-select:focus {
   box-shadow: none;
-  outline: #5454d4;
+  outline: var(--temp);
 }
 
 .omga-03__hero-form .nice-select .list {
@@ -26726,7 +26726,7 @@ p {
 
 /*>>>>>>>> Hero area styling 4<<<<<<<<<*/
 .omga-04__hero-area {
-  background: #5454d4;
+  background: var(--temp);
 }
 
 .omga-04__hero-image {
@@ -27133,7 +27133,7 @@ p {
   align-items: center;
   justify-content: center;
   border-radius: 500px;
-  color: #5454d4;
+  color: var(--temp);
   position: relative;
   top: 3px;
   margin-right: 13px;
@@ -27161,7 +27161,7 @@ p {
 }
 
 .omga-06__hero-btn .button-bottom-text .link {
-  color: #5454d4;
+  color: var(--temp);
 }
 
 /*>>>>>>>> Hero area styling 7 (landing-7)<<<<<<<<<*/
@@ -27223,7 +27223,7 @@ p {
 }
 
 .omga-07__hero-content .video-link {
-  color: #9faa7b;
+  color: var(--primary-light);
   font-family: "CircularStd", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -27404,7 +27404,7 @@ p {
 }
 
 .omga-08__hero-content .video-link {
-  color: #9faa7b;
+  color: var(--primary-light);
   font-family: "CircularStd", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -27632,7 +27632,7 @@ p {
 
 /*~~~~Feature Area styling 2~~~~~*/
 .omga-02__feature-section {
-  background: #9faa7b;
+  background: var(--primary-light);
   position: relative;
 }
 
@@ -27663,7 +27663,7 @@ p {
 
 @media (min-width: 768px) {
   .feature-widget--2 {
-    width: 399px;
+
     min-width: 389px;
   }
 }
@@ -27692,12 +27692,12 @@ p {
 
 .feature-widget--2 .widget-icon.blue {
   background-color: rgba(84, 84, 212, 0.1);
-  color: #9faa7b;
+  color: var(--primary-light);
 }
 
 .feature-widget--2 .widget-icon.ash {
   background-color: rgba(65, 62, 101, 0.1);
-  color: #9faa7b;
+  color: var(--primary-light);
 }
 
 .feature-widget--2 .widget-text {
@@ -27734,7 +27734,7 @@ p {
 
 .omga-03__feature-section .video-image a {
   font-size: 22px;
-  background-color: #5454D4;
+  background-color: var(--temp);
   border-radius: 500px;
   display: inline-flex;
   align-items: center;
@@ -27795,7 +27795,7 @@ p {
 
 .feature-widget--3 .widget-icon.bg-blue {
   background-color: rgba(84, 84, 212, 0.1);
-  color: #5454d4;
+  color: var(--temp);
 }
 
 .feature-widget--3 .widget-icon.bg-yellow {
@@ -28497,7 +28497,7 @@ p {
 
 .content-widget--2 .widget-icon.blue {
   background-color: rgba(84, 84, 212, 0.1);
-  color: #9faa7b;
+  color: var(--primary-light);
 }
 
 .content-widget--2 .widget-icon.ash {
@@ -28558,7 +28558,7 @@ p {
 .omga-03__content-badge {
   height: 32px;
   border-radius: 5px;
-  background-color: #5454d4;
+  background-color: var(--temp);
   color: #fff;
   display: inline-flex;
   justify-content: center;
@@ -28643,7 +28643,7 @@ p {
 }
 
 .omga-04__content-section4 {
-  background: #5454d4;
+  background: var(--temp);
   position: relative;
   overflow: hidden;
   padding-top: 73px;
@@ -28886,7 +28886,7 @@ p {
   align-items: center;
   justify-content: center;
   border-radius: 500px;
-  color: #5454d4;
+  color: var(--temp);
   position: relative;
   top: 9px;
   margin-right: 13px;
@@ -29080,7 +29080,7 @@ p {
   justify-content: center;
   margin-right: 20px;
   color: #fff;
-  background-color: #5454d4;
+  background-color: var(--temp);
 }
 
 .omga-06__content-widget .widget-text .title {
@@ -29179,7 +29179,7 @@ p {
   left: 0;
   width: 49px;
   height: 49px;
-  background-color: #5454d4;
+  background-color: var(--temp);
   border-radius: 500px;
   display: inline-flex;
   justify-content: center;
@@ -29644,7 +29644,7 @@ p {
   width: 45px;
   height: 8px;
   border-radius: 4px;
-  background: #5454d4;
+  background: var(--temp);
 }
 
 .testimonial-card--2 {
@@ -29732,7 +29732,7 @@ p {
   height: 65px;
   display: flex;
   width: 65px;
-  background: #5454d4;
+  background: var(--temp);
   transition: .4s;
   border-radius: 500px;
   transform: translate(-50%, -50%);
@@ -29745,7 +29745,7 @@ p {
 }
 
 .testimonial-slider-l5 .slick-arrow:hover:after {
-  color: #5454d4;
+  color: var(--temp);
 }
 
 .testimonial-slider-l5 .slick-arrow:after {
@@ -29936,7 +29936,7 @@ p {
   height: 65px;
   display: flex;
   width: 65px;
-  background: #5454d4;
+  background: var(--temp);
   transition: .4s;
   border-radius: 500px;
   transform: translate(-50%, -50%);
@@ -29948,7 +29948,7 @@ p {
 }
 
 .testimonial-slider-l6 .slick-arrow:hover:after {
-  color: #5454d4;
+  color: var(--temp);
 }
 
 .testimonial-slider-l6 .slick-arrow:after {
@@ -30088,7 +30088,7 @@ p {
 }
 
 .testimonial-card--6 .testmonial-texts .title-top {
-  color: #5454d4;
+  color: var(--temp);
   font-size: 16px;
   font-weight: 300;
   letter-spacing: -0.5px;
@@ -30097,7 +30097,7 @@ p {
 }
 
 .testimonial-card--6 .testmonial-texts .title-top {
-  color: #5454d4;
+  color: var(--temp);
   font-size: 16px;
   font-weight: 300;
   letter-spacing: -0.5px;
@@ -30243,7 +30243,7 @@ p {
 
 /*~~~~CTA Area styling 2 (landing-2)~~~~~*/
 .omga-02__cta-section {
-  background: #9faa7b;
+  background: var(--primary-light);
 }
 
 .omga-02__cta-section .section-title .title {
@@ -30372,7 +30372,7 @@ p {
 .omga-04__cta-section {
   padding-top: 40px;
   padding-bottom: 50px;
-  background-color: #5454d4;
+  background-color: var(--temp);
 }
 
 @media (min-width: 768px) {
@@ -30967,7 +30967,7 @@ p {
 }
 
 .pricing-wrapper .pricing-btn .toggle-btn.clicked {
-  background: #5454d4;
+  background: var(--temp);
 }
 
 .pricing-wrapper .pricing-btn .toggle-btn.clicked span {
@@ -30986,7 +30986,7 @@ p {
 }
 
 .pricing-card--5 .price-content .small-title {
-  color: #5454d4;
+  color: var(--temp);
   font-size: 16px;
   font-weight: 300;
   letter-spacing: -0.5px;
@@ -31055,7 +31055,7 @@ p {
   align-items: center;
   justify-content: center;
   border-radius: 500px;
-  color: #5454d4;
+  color: var(--temp);
   position: relative;
   top: 9px;
   margin-right: 13px;
@@ -31065,7 +31065,7 @@ p {
   padding-top: 18px;
   padding-bottom: 22px;
   border-radius: 0 0 10px 10px;
-  background-color: #5454d4;
+  background-color: var(--temp);
   color: #fff;
   font-size: 21px;
   font-weight: 500;
@@ -31123,7 +31123,7 @@ p {
 }
 
 .pricing-card--1 .title-top {
-  color: #5454d4;
+  color: var(--temp);
   font-size: 16px;
   font-weight: 300;
   letter-spacing: -0.5px;
@@ -31237,7 +31237,7 @@ p {
 
 .pricing-card--1 .card-btn.btn--blue {
   border: 1px solid #3d3dad;
-  background-color: #5454d4;
+  background-color: var(--temp);
 }
 
 .pricing-card--1 .card-btn.btn--orange {
@@ -31314,7 +31314,7 @@ p {
   border-radius: 10px;
   border: 1px solid #eae9f2;
   background-color: #ffffff;
-  color: #5454d4;
+  color: var(--temp);
   font-size: 21px;
   font-weight: 500;
   letter-spacing: -0.66px;
@@ -31349,11 +31349,11 @@ p {
 }
 
 .omga-06__review-section .more-review-link a {
-  color: #5454d4;
+  color: var(--temp);
 }
 
 .omga-06__review-section .more-review-link a:hover {
-  color: #5454d4;
+  color: var(--temp);
   text-decoration: underline;
 }
 
@@ -31443,7 +31443,7 @@ p {
 
 /*>>>>>>>> Review area styling 7 (landing-7)<<<<<<<<<*/
 .omga-07__review-area {
-  background-color: #5454d4;
+  background-color: var(--temp);
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -31527,7 +31527,7 @@ p {
 .service-card--1:hover {
   box-shadow: 0 52px 54px rgba(25, 25, 27, 0.3);
   border-radius: 10px;
-  background-color: #5454d4;
+  background-color: var(--temp);
 }
 
 .service-card--1:hover i {
@@ -31652,7 +31652,7 @@ p {
 }
 
 .case-card--1 .c-card-text {
-  background: #5454d4;
+  background: var(--temp);
   position: relative;
   z-index: 1;
   transition: .4s;
@@ -31704,7 +31704,7 @@ p {
 }
 
 .case-card--1 .c-card-text .shape svg path {
-  fill: #5454d4;
+  fill: var(--temp);
   transition: .4s;
 }
 
@@ -31772,7 +31772,7 @@ p {
 }
 
 .single-fact--5 .title {
-  color: #5454d4;
+  color: var(--temp);
   font-size: 60px;
   font-weight: 700;
   letter-spacing: -1.88px;
@@ -31806,7 +31806,7 @@ p {
 }
 
 .omga-06__single-fact .title {
-  color: #5454d4;
+  color: var(--temp);
   font-size: 60px;
   font-weight: 700;
   letter-spacing: -1.88px;
@@ -31846,7 +31846,7 @@ p {
 }
 
 .omga-08__single-fact .title {
-  color: #5454d4;
+  color: var(--temp);
   font-size: 60px;
   font-weight: 700;
   letter-spacing: -1.88px;
@@ -31914,7 +31914,7 @@ p {
   height: 49%;
   content: "";
   width: 100%;
-  background: #5454d4;
+  background: var(--temp);
   z-index: -1;
 }
 
@@ -32036,8 +32036,8 @@ p {
 }
 
 .omga-08__contact-form .agree-block #agree-check:checked ~ label {
-  border-color: #5454d4;
-  background: #5454d4;
+  border-color: var(--temp);
+  background: var(--temp);
 }
 
 .omga-08__contact-form .agree-block #agree-check:checked ~ label::before {
@@ -32051,7 +32051,7 @@ p {
 }
 
 .omga-08__contact-form .agree-block p a {
-  color: #5454d4;
+  color: var(--temp);
 }
 
 /* --------> Offer_Area_Styles 
@@ -32235,7 +32235,7 @@ p {
 
 .omga__video-area-2 .video-image a {
   font-size: 22px;
-  background-color: #5454D4;
+  background-color: var(--temp);
   border-radius: 500px;
   display: inline-flex;
   align-items: center;
