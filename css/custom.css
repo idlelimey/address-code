@@ -1,4 +1,34 @@
 html {
     scroll-behavior: smooth;
 }
+
+.image-banner {
+    height: 100vh;
+    background-image: url('../images/Address-Code-Billboard.jpg');
+    background-size: cover;
+    background-position: 50% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 425px) {
+    .image-banner {
+        height: 66vw;
+        background-size: 100vw;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .image-banner {
+        height: 66vw;
+        background-size: 75vh;
+    }
+}
+
+form small {
+    display: block;
+    padding-top: 1rem;
+}
+
+
 /*# sourceMappingURL=maps/custom.css.map */

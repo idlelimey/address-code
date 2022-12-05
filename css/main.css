@@ -26378,7 +26378,7 @@ p {
 }
 
 .omga-02__hero-img-group .abs-img.img-1 img {
-  box-shadow: 0 52px 54px rgba(65, 62, 101, 0.3);
+  box-shadow: 0 52px 54px rgba(0, 0, 0, 0.3);
   border: 10px solid #FFFFFF;
   background-color: #FFFFFF;
   border-radius: 500px;
@@ -27627,7 +27627,7 @@ p {
 }
 
 .feature-card--01:hover {
-  box-shadow: 0 52px 54px rgba(65, 62, 101, 0.3);
+  box-shadow: 0 52px 54px rgba(0, 0, 0, 0.3);
 }
 
 /*~~~~Feature Area styling 2~~~~~*/
@@ -28373,7 +28373,7 @@ p {
 }
 
 .omga-02__content-img-group-1 .img-1 img {
-  box-shadow: 0 52px 54px rgba(86, 98, 63, 0.3);
+  box-shadow: 0 52px 54px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 

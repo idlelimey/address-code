@@ -1,6 +1,6 @@
 :root {
-  --primary       : #55623f;  /* #084C61 */
-  --primary-light : #9faa7b; /* #db504a */
+  --primary       : #000;  /* #084C61 */
+  --primary-light : #009dbf; /* #db504a */
   --temp          : var(--primary-light);
 }
 
