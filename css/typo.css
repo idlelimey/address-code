@@ -3,12 +3,14 @@
     src: url('../fonts/CircularStd-Book.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'CircularStd';
     src: url('../fonts/CircularStd-BookItalic.woff2') format('woff2');
     font-weight: 300;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -16,6 +18,7 @@
     src: url('../fonts/CircularStd-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -23,6 +26,7 @@
     src: url('../fonts/CircularStd-BoldItalic.woff2') format('woff2');
     font-weight: bold;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -30,6 +34,7 @@
     src: url('../fonts/CircularStd-BlackItalic.woff2') format('woff2');
     font-weight: 900;
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
@@ -37,6 +42,7 @@
     src: url('../fonts/CircularStd-Black.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -44,6 +50,7 @@
     src: url('../fonts/CircularStd-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -51,5 +58,6 @@
     src: url('../fonts/CircularStd-MediumItalic.woff2') format('woff2');
     font-weight: 500;
     font-style: italic;
+    font-display: swap;
 }
 
