@@ -6,7 +6,7 @@ html {
     height: 100vh;
     background-image: url('../images/Address-Code-Billboard.jpg');
     background-size: cover;
-    background-position: 50% 100%;
+    background-position: 50% 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -24,6 +24,7 @@ html {
     .image-banner {
         height: 66vw;
         background-size: contain;
+        background-position: 50% 100%;
     }
 }
 
