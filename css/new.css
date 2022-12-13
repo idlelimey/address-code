@@ -120,8 +120,8 @@ section {
 }
 
 .feature-box span {
-    width: 4rem;
-    height: 4rem;
+    min-width: 4rem;
+    min-height: 4rem;
     background-color: var(--grey-lightest);
     display: flex;
     align-items: center;
