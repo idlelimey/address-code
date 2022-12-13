@@ -17,10 +17,12 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
     position: fixed;
     top: 0;
     background-color: transparent;
-    padding: 1rem 2rem;
+    padding: .75rem 2rem;
     z-index: 9;
     width: 100%;
     transition: background-color .5s;
@@ -127,7 +129,7 @@ section {
 
 @media(min-width: 992px) {
     .feature-box {
-        width: 75%;
+        width: 80%;
     }
 }
 
