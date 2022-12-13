@@ -39,6 +39,12 @@ header img {
 section {
     padding: 7.5rem 1rem;
 }
+@media screen and (min-width: 992px) {
+    section.feature-content {
+        max-width: 570px;
+        float: right;
+    }
+}
 
 
 /* Brand Images */
