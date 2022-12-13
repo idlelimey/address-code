@@ -132,6 +132,9 @@ section {
 .feature-box div {
     flex-grow: 1;
 }
+.feature-box h2 {
+    font-size: 1.5rem;
+}
 .feature-box p {
     font-size: 1rem;
     margin: 0;
