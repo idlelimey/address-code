@@ -3,7 +3,7 @@
 :root {
     --primary: #000;
     --secondary: #009dbf;
-    --secondary-light: #3eb7e1;
+    --secondary-light: #3bb5e2;
     --grey: #696871;
     --grey-light: #eae9f2;
     --grey-lightest: #f7f7fb;
@@ -16,24 +16,30 @@ body {
     margin: 0;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    padding: 1rem 2rem;
+    z-index: 9;
+    width: 100%;
+    transition: background-color .5s;
+}
+
+header.scrolled {
+    background-color: rgb(255,255,255,.9);
+    backdrop-filter: blur(.125rem);
+    box-shadow: 0 12px 34px -11px rgba(65, 62, 101, 0.1);
+}
+header img {
+    height: 1.5rem;
+}
+
 /* Sections */
 section {
     padding: 7.5rem 1rem;
 }
 
-/* Utils */
-.bg-secondary {
-    background-color: var(--secondary);
-}
-.bg-secondary-light {
-    background-color: var(--secondary-light);
-}
-.bg-grey-lightest {
-    background-color: var(--grey-lightest);
-}
-.m-auto {
-    margin: auto;
-}
 
 /* Brand Images */
 .brand-logo {
@@ -75,6 +81,27 @@ section {
     font-family: var(--font-family);
 }
 
+/* Hero */
+.info-circle[data-circle="hero1"] {
+    position: absolute;
+    top: 10%;
+    background-image: url('../images/l2-hero-oval1.png');
+    background-size: cover;
+    background-position: 50% 50%;
+    border: .5rem solid var(--white);
+}
+.info-circle[data-circle="hero2"] {
+    position: absolute;
+    top: 80%;
+    right: 0;
+    background-image: url('../images/l2-hero-oval2.png');
+    background-size: cover;
+    box-shadow: none;
+    border-radius: 0;
+    width: 15rem;
+    height: 15rem;
+}
+
 /* Feature Box */
 .feature-box {
     display: flex;
@@ -85,6 +112,13 @@ section {
     padding: 1rem;  
     margin-bottom: 1rem;
 }
+
+@media(min-width: 992px) {
+    .feature-box {
+        width: 75%;
+    }
+}
+
 .feature-box span {
     width: 4rem;
     height: 4rem;
@@ -114,15 +148,62 @@ section {
 .info-circle {
     width: 11rem;
     height: 11rem;
-    border: .5rem solid var(--white);
     box-shadow: 0 1rem 2rem rgb(0,0,0,.2);
     border-radius: 999px;
 }
 .info-circle[data-circle="scanner"] {
+    border: .5rem solid var(--white);
     position: absolute;
     top: 50%;
     transform: translate(calc(50% - 1rem), -50%);
     background-image: url('../images/l2-hero-oval1.png');
     background-size: cover;
     background-position: 50% 50%;
+}
+
+/* Image banner */
+.image-banner {
+    height: 100vh;
+    background-image: url('../images/Address-Code-Billboard-min.jpg');
+    background-size: cover;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 425px) {
+    .image-banner {
+        height: auto;
+        padding-top: 66%;
+        background-size: 100vw;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .image-banner {
+        height: 66vw;
+        background-size: contain;
+        background-position: 50% 100%;
+    }
+}
+
+/* Utils */
+.w-100 {
+    width: 100% !important;
+}
+.p-0 {
+    padding: 0 !important;
+}
+.bg-secondary {
+    background-color: var(--secondary);
+}
+.bg-secondary-light {
+    background-color: var(--secondary-light);
+}
+.bg-grey-lightest {
+    background-color: var(--grey-lightest);
+}
+.m-auto {
+    margin: auto;
 }
