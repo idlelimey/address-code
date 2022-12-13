@@ -1,0 +1,128 @@
+@import url('typo.css');
+
+:root {
+    --primary: #000;
+    --secondary: #009dbf;
+    --secondary-light: #3eb7e1;
+    --grey: #696871;
+    --grey-light: #eae9f2;
+    --grey-lightest: #f7f7fb;
+    --white: #fff;
+
+    --font-family: "CircularStd", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Sections */
+section {
+    padding: 7.5rem 1rem;
+}
+
+/* Utils */
+.bg-secondary {
+    background-color: var(--secondary);
+}
+.bg-secondary-light {
+    background-color: var(--secondary-light);
+}
+.bg-grey-lightest {
+    background-color: var(--grey-lightest);
+}
+.m-auto {
+    margin: auto;
+}
+
+/* Brand Images */
+.brand-logo {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: auto;
+}
+
+/* Email form */
+.email-form {
+    background-color: var(--white);
+    border-radius: .5rem;
+    border: 1px solid var(--grey-light);
+    display: flex;
+    padding: .25rem;
+    
+}
+.email-form span {
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+.email-form input {
+    flex-grow: 1;
+    border: 0;
+    font-size: 1rem;
+    font-family: var(--font-family);
+}
+.email-form button {
+    background-color: var(--primary);
+    color: var(--white);
+    border: 0;
+    border-radius: .25rem;
+    padding: 1rem 3rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+
+/* Feature Box */
+.feature-box {
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: .5rem;
+    border: 1px solid var(--grey-light);
+    padding: 1rem;  
+    margin-bottom: 1rem;
+}
+.feature-box span {
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--grey-lightest);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    border-radius: 99px;
+}
+.feature-box div {
+    flex-grow: 1;
+}
+.feature-box p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Scanner */
+.scanner-image {
+    border-radius: .5rem;
+    display: block;
+    box-shadow: 0 1rem 2rem rgb(0,0,0,.2);
+    margin: auto 0 auto auto;
+}
+
+.info-circle {
+    width: 11rem;
+    height: 11rem;
+    border: .5rem solid var(--white);
+    box-shadow: 0 1rem 2rem rgb(0,0,0,.2);
+    border-radius: 999px;
+}
+.info-circle[data-circle="scanner"] {
+    position: absolute;
+    top: 50%;
+    transform: translate(calc(50% - 1rem), -50%);
+    background-image: url('../images/l2-hero-oval1.png');
+    background-size: cover;
+    background-position: 50% 50%;
+}

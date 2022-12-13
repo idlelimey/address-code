@@ -61,3 +61,42 @@
     font-display: swap;
 }
 
+body {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-family: var(--font-family);
+    font-weight: 300;
+}
+
+h1,h2,h3,h4 {
+    line-height: 1;
+    font-weight: 700;
+    margin: 0 0 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    letter-spacing: -.25rem;
+}
+
+h2 {
+    font-size: 3.75rem;
+    letter-spacing: -.175rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+.text-white {
+    color: var(--white);
+}
+.text-grey {
+    color: var(--grey);
+}
+.text-center {
+    text-align: center;
+}
+
+small {
+    font-size: .8rem;
+}
